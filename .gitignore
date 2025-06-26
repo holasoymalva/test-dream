@@ -1,0 +1,200 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+.tsc-output/
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+junit.xml
+*.lcov
+
+# IDE and Editor files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+config/local.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Package files
+*.tgz
+*.tar.gz
+*.zip
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# Generated files
+__generated__/
+generated/
+
+# Test artifacts
+__tests__/__snapshots__/
+*.snap
+.jest/
+test-report.xml
+mochawesome-report/
+
+# Documentation
+docs/.vuepress/dist/
+_book/
+.docusaurus/
+.cache-loader/
+
+# Misc
+*.bak
+*.orig
+*.rej
+*.patch
+.history/
+.eslintcache
+.stylelintcache
+*.pid
+*.seed
+*.pid.lock
+
+# npm/yarn specific
+.npm/
+.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+package-lock.json.backup
+yarn.lock.backup
+
+# TypeScript cache
+*.tsbuildinfo
+.tsc-multi/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test/
+
+# Temporary folders
+tmp/
+temp/
+
+# TestDream specific
+testdream.config.local.ts
+testdream.config.local.js
+.testdream-cache/
+test-outputs/
+__test_artifacts__/
+
+# User configuration overrides
+*.local.json
+*.local.js
+*.local.ts
+
+# API keys and secrets (extra safety)
+*api-key*
+*secret*
+*credential*
+*.key
+*.pem
+*.cert
+
+# Backup files
+backup/
+backups/
+*.backup
+*.old
+
+# Debug files
+debug/
+*.debug
+
+# Performance profiling
+*.cpuprofile
+*.heapprofile
+*.heapsnapshot
+
+# Benchmarking
+benchmark-results/
+.benchmark/
